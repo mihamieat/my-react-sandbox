@@ -51,7 +51,7 @@ export default function HomeScreen() {
           <ThemedText type="defaultSemiBold">app-example</ThemedText>.
         </ThemedText>
         <ThemedText>
-          <Button>Get data</Button>
+          <Button onClick={undefined} className={undefined}>Get data</Button>
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
