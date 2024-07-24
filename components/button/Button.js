@@ -25,7 +25,7 @@ const Button = ({ onClick, children, className, ...props }) => {
         {
           method: "GET",
           headers: {
-            'Authorization': `Basic ${encodedCredentials}`
+            Authorization: `Basic ${encodedCredentials}`,
           },
         },
       );
